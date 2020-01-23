@@ -10,6 +10,11 @@
 
 module.exports.routes = {
 
+  '/': {
+    view: 'pages/homepage'
+  },
+
+
   //apphealth
   'GET /api/v1/apphealth': {action: 'apphealth/health'},
 
