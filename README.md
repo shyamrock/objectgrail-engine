@@ -25,3 +25,14 @@ aws ecr get-login --profile objectgrail
 docker login -u AWS -p 1NzgxODkzMDJ9 xxx.dkr.ecr.us-east-1.amazonaws.com
 docker push xxxx.dkr.ecr.us-east-1.amazonaws.com/objectgrail
 
+## api image
+{
+    "repository": {
+        "repositoryUri": "165189763164.dkr.ecr.us-east-1.amazonaws.com/api", 
+        "registryId": "165189763164", 
+        "imageTagMutability": "MUTABLE", 
+        "repositoryArn": "arn:aws:ecr:us-east-1:165189763164:repository/api", 
+        "repositoryName": "api", 
+        "createdAt": 1580766789.0
+    }
+}
